@@ -5,13 +5,13 @@ class EmailController {
     }
   
     async sendEmail(req, res) {
-      const { to, body, priority } = req.body;
+      const { to, subject, body, priority } = req.body;
   
       if (!to || !body) {
         return res.status(400).json({ error: 'Missing required fields: to, body' });
       }
   
-      const email = { id: uuidv4(), to, body };
+      const email = { id: uuidv4(), to,subject, body };
   
       try {
         const result = await this.emailService.sendEmail(email, priority || 1);
