@@ -61,3 +61,5 @@ The service is deployed and accessible via the following URLs:
 
 Base URL: https://emailservices-l05y.onrender.com/
 Send Email: https://emailservices-l05y.onrender.com/send
+explaination vidio - https://drive.google.com/file/d/1cGG_6t1lZBmmuroiOzBcsM0k0c8AAa30/view?usp=sharing
+
