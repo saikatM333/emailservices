@@ -24,8 +24,6 @@ express
 uuid
 Start the application:
 
-bash
-Copy code
 npm start
 The server should now be running on http://localhost:3000 (or any port specified in your environment).
 
