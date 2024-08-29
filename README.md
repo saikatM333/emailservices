@@ -47,7 +47,7 @@ curl -X POST https://emailservices-l05y.onrender.com/send \
 -d '{
   "to": "recipient@example.com",
   "subject": "Test Email",
-  "message": "This is a test email."
+  "body": "This is a test email."
 }'
 GET /status/
 
